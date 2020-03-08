@@ -1,0 +1,41 @@
+*{
+    background-color: black;
+    font-family: monospace;
+}
+
+h1 {color:white;
+}
+h3 {color: rgb(190, 28, 28);
+}
+h1, h3 {
+    text-align: center;
+}
+h1 {font-size: 5em;
+}
+h3 {font-size: 3em;
+}
+
+img 
+{display: flex;
+padding: 0px;
+margin: 0 auto;
+border-radius: 40%;
+width: 20%;
+transition: 0,6s ease;
+}
+img :hover{
+    font-size: 1.2em;
+transition: 0,6 ease;}   
+
+body {
+color: whitesmoke;
+font-size: 2em;
+text-align: center;
+}
+.universe1{
+    color:white;
+}
+li.item {
+    padding: 2em;
+}
+.p1 {font-size: 6em;}
