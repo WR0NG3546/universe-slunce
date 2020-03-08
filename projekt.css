@@ -1,0 +1,43 @@
+* {
+    background:black;
+    font-family: fantasy;
+   
+    
+}
+h1 {
+    color:white;
+    text-align: center;
+    font-size: 5em;
+}
+.hlavniobrazek { 
+    border-radius: 100%;
+    width: 40%;
+    
+    
+    
+
+}
+
+    
+.nahlavniobrazek {
+    text-align: center;
+
+}
+.slunce {
+    width: 20%;
+    
+}
+.země{
+    width: 25%;
+    
+    
+}
+
+
+#container {
+    display: flex;
+    justify-content: space-betwen;
+}
+
+
+
