@@ -13,6 +13,8 @@ h1, h3 {
 h1 {font-size: 5em;
 }
 h3 {font-size: 3em;
+    text-align: center;
+
 }
 
 img 
@@ -38,5 +40,7 @@ text-align: center;
 li.item {
     padding: 2em;
 }
- 
+ .p1 {
+     color: white;
+ }
 
