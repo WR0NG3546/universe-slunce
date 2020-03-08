@@ -1,34 +1,43 @@
 * {
-    background-color: black;
+    background:black;
     font-family: fantasy;
+   
+    
 }
 h1 {
-    color: white;
+    color:white;
+    text-align: center;
     font-size: 5em;
 }
-h2 {
-    color: rgb(253, 150, 30);
-    font-size: 3em;
+.hlavniobrazek { 
+    border-radius: 100%;
+    width: 40%;
+    
+    
+    
+
 }
-h1, h2 {
+
+    
+.nahlavniobrazek {
     text-align: center;
+
 }
-img {
-    display: flex;
-    padding: 0px;
-    margin: 0 auto;
-    border-radius: 50%;
+.slunce {
+    width: 20%;
+    
+}
+.země{
     width: 25%;
-    transition: 0,6ease;
+    
+    
 }
-img :hover{
-    font-size: 1.2em;
-    transition: 0,6ease;
+
+
+#container {
+    display: flex;
+    justify-content: space-betwen;
 }
-h3 {
-    color: white;
-    font-size: 2em;
-}
-.universe1{
-    color:white;
-}
+
+
+
