@@ -7,7 +7,7 @@
 h1 {
     color:white;
     text-align: center;
-    font-size: 5em;
+    font-size: 25em;
 }
 .hlavniobrazek { 
     border-radius: 100%;
@@ -34,14 +34,34 @@ h1 {
 }
 
 
-#container {
+#container, #planety {
     display: flex;
-    justify-content: space-betwen;
+    justify-content:space-around;
+    width: 80%;
+    
 }
+
+#planety li img {
+    width: 40em;
+}
+
 li.item {
     padding: 2em;
 }
-    .slunce, .merkur, . {
+li{
+    margin: 0.2px;
+    transition: 0.6s ease ;
+}
+li:hover {
+font-size: 1.2em;
+transition: 0.6 ease;
+    /*
+    .slunce, .merkur, .venuse, .zeme, .mars, .jupiter, .saturn, .uran, .neptun
+     width
+}
+        
+        .slunce, .merkur, .venuse, .zeme, .mars, .jupiter, .saturn, .uran, .neptun  {   
+width:1em;
 
 
-
+*/
